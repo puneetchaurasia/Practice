@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://assets.stablemoney.in/fonts/CircularStd-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://assets.stablemoney.in/fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Using Medium (500) for Bold (700) as requested placeholder */
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://assets.stablemoney.in/fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('https://assets.stablemoney.in/fonts/Denton-Test-Regular-400.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
