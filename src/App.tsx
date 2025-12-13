@@ -48,12 +48,33 @@ function App() {
           <div className="space-y-s-8">
             <h3 className="text-14-med text-base-B-60">Base Colors</h3>
             <div className="grid grid-cols-6 gap-s-8">
-              {[80, 60, 50, 40, 10, '03'].map((opacity) => (
-                <div key={opacity} className="space-y-s-4">
-                  <div className={`h-s-40 rounded-secondary bg-base-B-${opacity}`}></div>
-                  <p className="text-10-book">B-{opacity}</p>
+              {[
+                { key: '80', class: 'bg-base-B-80' },
+                { key: '60', class: 'bg-base-B-60' },
+                { key: '50', class: 'bg-base-B-50' },
+                { key: '40', class: 'bg-base-B-40' },
+                { key: '10', class: 'bg-base-B-10' },
+                { key: '03', class: 'bg-base-B-03' },
+              ].map((item) => (
+                <div key={item.key} className="space-y-s-4">
+                  <div className={`h-s-40 rounded-secondary ${item.class}`}></div>
+                  <p className="text-10-book">B-{item.key}</p>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="space-y-s-8">
+            <h3 className="text-14-med text-base-B-60">Brand Colors</h3>
+            <div className="grid grid-cols-2 gap-s-16">
+              <div className="space-y-s-4">
+                <div className="h-s-40 rounded-primary bg-brand-base-white border border-base-B-10"></div>
+                <p className="text-12-book">Base White</p>
+              </div>
+              <div className="space-y-s-4">
+                <div className="h-s-40 rounded-primary bg-brand-sm-purple"></div>
+                <p className="text-12-book">SM Purple</p>
+              </div>
             </div>
           </div>
         </section>
@@ -107,7 +128,7 @@ function App() {
           </div>
         </section>
       </div>
-    </div>
+      </div>
   )
 }
 
