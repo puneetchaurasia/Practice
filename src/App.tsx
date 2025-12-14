@@ -7,7 +7,7 @@ function App() {
       <div className="max-w-4xl mx-auto space-y-s-32">
         {/* Header */}
         <div className="space-y-s-8">
-          <h1 className="text-24-med text-brand-sm-purple">Stable Money Design System</h1>
+          <h1 className="text-24-med text-base-B-80">Stable Money Design System</h1>
           <p className="text-17-book text-base-B-60">Design system atoms and tokens verification</p>
         </div>
 
@@ -107,7 +107,7 @@ function App() {
 
         {/* Spacing & Radius Section */}
         <section className="space-y-s-16">
-          <h2 className="text-20-med text-base-B-80">Spacing & Radius</h2>
+          <h2 className="text-20-med text-base-B-80">Spacing and Radius</h2>
           <div className="flex gap-s-16">
             <div className="w-s-40 h-s-40 bg-brand-sm-purple rounded-primary flex items-center justify-center text-brand-base-white text-10-book">Pri</div>
             <div className="w-s-32 h-s-32 bg-brand-sm-purple rounded-secondary flex items-center justify-center text-brand-base-white text-10-book">Sec</div>
